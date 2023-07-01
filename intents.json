@@ -36,48 +36,81 @@
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "what do you have?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell Maternity clothing,Baby's clothing and skincare",
+        "We have Maternity cloths,Baby Cloths and skincare"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "payment",
+        "Can I pay online?",
+        "Can I pay through Khalti?"
+      ],
+      "responses": [
+        "Yes,You can pay online through khalti."
+       
       ]
     },
     {
       "tag": "payments",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "payment",
+        "How can i pay?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "You can pay online",
+        "We accept Online payment."
       ]
     },
     {
       "tag": "delivery",
       "patterns": [
         "How long does delivery take?",
-        "How long does shipping take?",
+        "How long will it take to recieve my goods?",
         "When do I get my delivery?"
       ],
       "responses": [
         "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "It will take 2-4 days"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "skincare",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "which brand skincare do you sell?",
+        "which brands are available",
+        "available brand?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "We have MamaEarth,Johnson baby,Himalayan products,The mama Co"
+      ]
+    },
+    {
+      "tag": "skincarecategories",
+      "patterns": [
+        "what categories of skincare are available?",
+        "what skincare products do you have?",
+        "skincare products available?"
+      ],
+      "responses": [
+        "We have baby oil,moisturiser,powder,rashes cream"
+      ]
+    },
+    {
+      "tag": "sizing",
+      "patterns": [
+        "Upto which size baby cloths do you sell? ",
+        "size of baby cloths?",
+        "size?"
+      ],
+      "responses": [
+        "We sell Baby cloths that fits from new-born to 1 year",
+        "Baby clothing size ranges from new born to 1 year."
       ]
     }
   ]
