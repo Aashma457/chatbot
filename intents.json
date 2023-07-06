@@ -40,8 +40,8 @@
         "what do you have?"
       ],
       "responses": [
-        "We sell Maternity clothing,Baby's clothing and skincare",
-        "We have Maternity cloths,Baby Cloths and skincare"
+        "We sell Maternity clothing,Baby's clothing and skincares",
+        "We have Maternity cloths,Baby Cloths and skincares"
       ]
     },
     {
@@ -59,11 +59,12 @@
     {
       "tag": "payments",
       "patterns": [
-        "payment",
-        "How can i pay?"
+        "payment?",
+        "How can i pay?",
+        "mode of payment?"
       ],
       "responses": [
-        "You can pay online",
+        "You can pay online through khalti app",
         "We accept Online payment."
       ]
     },
@@ -71,8 +72,12 @@
       "tag": "delivery",
       "patterns": [
         "How long does delivery take?",
-        "How long will it take to recieve my goods?",
-        "When do I get my delivery?"
+        "How long will it take deliver?",
+        "When will I get my delivery?",
+        "delivery?",
+        "delivery time?",
+        "when will i receive my parcel?",
+        "How long will delivery take?"
       ],
       "responses": [
         "Delivery takes 2-4 days",
@@ -105,8 +110,8 @@
       "tag": "sizing",
       "patterns": [
         "Upto which size baby cloths do you sell? ",
-        "size of baby cloths?",
-        "size?"
+        "sizes of baby cloths?",
+        "size available?"
       ],
       "responses": [
         "We sell Baby cloths that fits from new-born to 1 year",
